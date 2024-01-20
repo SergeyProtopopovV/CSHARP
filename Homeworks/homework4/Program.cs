@@ -41,6 +41,35 @@
 //     string num = Console.ReadLine();
 // }
 
+// Пример идеального решения
+
+while (true) // Бесконечный цикл
+{
+    Console.Write("Введите число или 'q' для выхода: ");
+    string input = Console.ReadLine(); // Чтение строки ввода пользователя
+    if (input == "q") // Проверка на ввод 'q' для выхода
+    {
+        break;
+    }
+    int number;
+    if (int.TryParse(input, out number)) // Проверка, является ли ввод числом{
+        int sum = 0;
+    while (number > 0) // Вычисление суммы цифр числа
+    {
+        sum += number % 10; // Добавление последней цифры к сумме
+        number /= 10; // Удаление последней цифры из числа
+    }
+    if (sum % 2 == 0) // Проверка, является ли сумма цифр четной
+    {
+        Console.WriteLine("[STOP]");
+        break;
+    }
+}
+else // Если ввод не является числом и не 'q', повторить запрос
+{
+    Console.WriteLine("Некорректный ввод. Пожалуйста, введите целое числоили 'q'.");
+}
+
 // Задача 2: Задайте массив заполненный случайными трёхзначными числами. 
 // Напишите программу, которая покажет количество чётных чисел в массиве.
 
@@ -83,42 +112,42 @@
 // Задача 3: Напишите программу, которая перевернёт одномерный массив 
 // (первый элемент станет последним, второй – предпоследним и т.д.)
 
-int[] CreateRandomArray(int size, int min, int max)
-{
-    int[] array = new int[size];
-    for (int i = 0; i < array.Length; i++)
-    {
-        array[i] = new Random().Next(min, max + 1);
-    }
-    return array;
-}
+// int[] CreateRandomArray(int size, int min, int max)
+// {
+//     int[] array = new int[size];
+//     for (int i = 0; i < array.Length; i++)
+//     {
+//         array[i] = new Random().Next(min, max + 1);
+//     }
+//     return array;
+// }
 
-void PrintArray(int[] array)
-{
-   for (int i = 0; i < array.Length; i++)
-    {
-        Console.Write(array[i] + " ");
-    } 
-    Console.WriteLine();
-}
+// void PrintArray(int[] array)
+// {
+//     for (int i = 0; i < array.Length; i++)
+//     {
+//         Console.Write(array[i] + " ");
+//     }
+//     Console.WriteLine();
+// }
 
-int[] CreateReverseArray(int[] array)
-{
-    int[] reverseArray = new int[array.Length];
-    for (int i = 0; i < array.Length; i++)
-    {
-        reverseArray[i] = array[array.Length - i - 1];
-    }
-    return reverseArray;
-}
+// int[] CreateReverseArray(int[] array)
+// {
+//     int[] reverseArray = new int[array.Length];
+//     for (int i = 0; i < array.Length; i++)
+//     {
+//         reverseArray[i] = array[array.Length - i - 1];
+//     }
+//     return reverseArray;
+// }
 
-Console.Write("Input array size: ");
-int size = Convert.ToInt32(Console.ReadLine());
-Console.Write("Input array minimum: ");
-int min = Convert.ToInt32(Console.ReadLine());
-Console.Write("Input array maximum: ");
-int max = Convert.ToInt32(Console.ReadLine());
+// Console.Write("Input array size: ");
+// int size = Convert.ToInt32(Console.ReadLine());
+// Console.Write("Input array minimum: ");
+// int min = Convert.ToInt32(Console.ReadLine());
+// Console.Write("Input array maximum: ");
+// int max = Convert.ToInt32(Console.ReadLine());
 
-int[] array = CreateRandomArray(size, min, max);
-PrintArray(array);
-PrintArray(CreateReverseArray(array));
+// int[] array = CreateRandomArray(size, min, max);
+// PrintArray(array);
+// PrintArray(CreateReverseArray(array));
