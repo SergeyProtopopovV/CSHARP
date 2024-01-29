@@ -1,0 +1,15 @@
+C:\Users\Serge\GeekBrains\Csharp\seminars\sem7\bin\Debug\net6.0\sem7.exe
+C:\Users\Serge\GeekBrains\Csharp\seminars\sem7\bin\Debug\net6.0\sem7.deps.json
+C:\Users\Serge\GeekBrains\Csharp\seminars\sem7\bin\Debug\net6.0\sem7.runtimeconfig.json
+C:\Users\Serge\GeekBrains\Csharp\seminars\sem7\bin\Debug\net6.0\sem7.dll
+C:\Users\Serge\GeekBrains\Csharp\seminars\sem7\bin\Debug\net6.0\sem7.pdb
+C:\Users\Serge\GeekBrains\Csharp\seminars\sem7\obj\Debug\net6.0\sem7.csproj.AssemblyReference.cache
+C:\Users\Serge\GeekBrains\Csharp\seminars\sem7\obj\Debug\net6.0\sem7.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Serge\GeekBrains\Csharp\seminars\sem7\obj\Debug\net6.0\sem7.AssemblyInfoInputs.cache
+C:\Users\Serge\GeekBrains\Csharp\seminars\sem7\obj\Debug\net6.0\sem7.AssemblyInfo.cs
+C:\Users\Serge\GeekBrains\Csharp\seminars\sem7\obj\Debug\net6.0\sem7.csproj.CoreCompileInputs.cache
+C:\Users\Serge\GeekBrains\Csharp\seminars\sem7\obj\Debug\net6.0\sem7.dll
+C:\Users\Serge\GeekBrains\Csharp\seminars\sem7\obj\Debug\net6.0\refint\sem7.dll
+C:\Users\Serge\GeekBrains\Csharp\seminars\sem7\obj\Debug\net6.0\sem7.pdb
+C:\Users\Serge\GeekBrains\Csharp\seminars\sem7\obj\Debug\net6.0\sem7.genruntimeconfig.cache
+C:\Users\Serge\GeekBrains\Csharp\seminars\sem7\obj\Debug\net6.0\ref\sem7.dll
