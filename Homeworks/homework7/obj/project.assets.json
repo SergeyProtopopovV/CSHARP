@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Serge\\GeekBrains\\Csharp\\homeworks\\homework7\\homework7.csproj",
+      "projectUniqueName": "C:\\Users\\Serge\\GeekBrains\\Csharp\\Homeworks\\homework7\\homework7.csproj",
       "projectName": "homework7",
-      "projectPath": "C:\\Users\\Serge\\GeekBrains\\Csharp\\homeworks\\homework7\\homework7.csproj",
+      "projectPath": "C:\\Users\\Serge\\GeekBrains\\Csharp\\Homeworks\\homework7\\homework7.csproj",
       "packagesPath": "C:\\Users\\Serge\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Serge\\GeekBrains\\Csharp\\homeworks\\homework7\\obj\\",
+      "outputPath": "C:\\Users\\Serge\\GeekBrains\\Csharp\\Homeworks\\homework7\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Serge\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -59,7 +59,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files (x86)\\dotnet\\sdk\\6.0.418\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files (x86)\\dotnet\\sdk\\6.0.419\\RuntimeIdentifierGraph.json"
       }
     }
   }
